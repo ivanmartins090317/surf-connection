@@ -1,0 +1,8 @@
+<%- include ("./layout/header", {title: "SurfXcommunit"})%>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title size-4">Novo usuário</h1>
+    <%- include ('form', {url:'/views?_method=post', users:users})%>
+  </div>
+</section>
